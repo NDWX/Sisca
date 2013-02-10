@@ -35,17 +35,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Pug.Application.Data">
-      <HintPath>..\..\..\..\Libraries\PugFX\1.0\Debug\Pug.Application.Data.dll</HintPath>
+    <Reference Include="Pug.Application.Data, Version=2.0.4587.31868, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Libraries\Cartage\1.0.0\Debug\Pug.Application.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Pug.Application.Security">
-      <HintPath>..\..\..\..\Libraries\Cartage\0.9\Debug\Pug.Application.Security.dll</HintPath>
+    <Reference Include="Pug.Application.Data.common">
+      <HintPath>..\..\..\Libraries\Cartage\1.0.0\Debug\Pug.Application.Data.common.dll</HintPath>
     </Reference>
-    <Reference Include="Pug.Cartage">
-      <HintPath>..\..\..\..\Libraries\Cartage\0.9\Debug\Pug.Cartage.dll</HintPath>
+    <Reference Include="Pug.Application.Security, Version=1.0.4587.31869, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Libraries\Cartage\1.0.0\Debug\Pug.Application.Security.dll</HintPath>
     </Reference>
-    <Reference Include="Pug.Core">
-      <HintPath>..\..\..\..\Libraries\Cartage\0.9\Debug\Pug.Core.dll</HintPath>
+    <Reference Include="Pug.Cartage, Version=1.0.0.21401, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Libraries\Cartage\1.0.0\Debug\Pug.Cartage.dll</HintPath>
+    </Reference>
+    <Reference Include="Pug.Core, Version=1.0.4621.17543, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Libraries\Cartage\1.0.0\Debug\Pug.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
