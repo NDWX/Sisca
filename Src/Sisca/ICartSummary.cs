@@ -1,4 +1,6 @@
-﻿namespace Pug.Sisca
+﻿using Cartage = Pug.Cartage;
+
+namespace Pug.Sisca
 {
 	public interface ICartSummary : Cartage.ICartSummary
 	{

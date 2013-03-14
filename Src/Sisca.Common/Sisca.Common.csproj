@@ -8,8 +8,8 @@
     <ProjectGuid>{406CA069-86BF-4217-823A-F3D74D8A4BDD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sisca.Common</RootNamespace>
-    <AssemblyName>Sisca.Common</AssemblyName>
+    <RootNamespace>Pug.Sisca</RootNamespace>
+    <AssemblyName>Pug.Sisca.Common</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>

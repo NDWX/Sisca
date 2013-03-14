@@ -7,7 +7,7 @@ using Pug.Application.Security;
 namespace Pug.Sisca
 {
 	public class Sisca<Sp, P, Pp> : Pug.Sisca.ISisca<P, Pp>
-        where Sp: Cartage.ICartInfoStoreProvider
+        where Sp: Cartage.ICartInfoStore
 		where P : IProductInfo
 		where Pp : IProductInfoProvider<P>
 	{
@@ -91,7 +91,7 @@ namespace Pug.Sisca
 	}
 
 	public class Sisca<Sp, P> : Sisca<Sp, P, IProductInfoProvider<P>>
-        where Sp : Cartage.ICartInfoStoreProvider
+        where Sp : Cartage.ICartInfoStore
 		where P : IProductInfo
 	{
 		public Sisca(Cartage.ICartage cartage, IProductInfoProvider<P> productInfoProvider)
@@ -106,7 +106,7 @@ namespace Pug.Sisca
 	}
 
     public class Sisca<Sp> : Sisca<Sp, IProductInfo>
-        where Sp : Cartage.ICartInfoStoreProvider
+        where Sp : Cartage.ICartInfoStore
 	{
 		public Sisca(Cartage.ICartage cartage, IProductInfoProvider productInfoProvider)
 			: base(cartage, productInfoProvider)

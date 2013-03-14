@@ -105,6 +105,12 @@ namespace Pug.Sisca
 			return summary;
 		}
 
+		public void MarkAsFinalized()
+		{
+			_cart.MarkAsFinalized();
+		}
+
 		#endregion
+
 	}
 }
